@@ -44,8 +44,8 @@ Como biblioteca:
 from metricas import MatrizConfusao
 
 m = MatrizConfusao(vp=40, vn=45, fp=5, fn=10)
-m.f_score                     # 0.8421...
-m.metricas()                  # dicionário com as cinco
+m.f_score  # 0.8421...
+m.metricas()  # dicionário com as cinco
 
 # ou a partir das saídas de um modelo
 MatrizConfusao.de_rotulos(reais=[1, 0, 1, 1], previstos=[1, 0, 0, 1])
